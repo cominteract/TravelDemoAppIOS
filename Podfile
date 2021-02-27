@@ -1,19 +1,20 @@
+
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'TraavelAppDemo' do
+target 'TravelAppDemoiOS' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for TraavelAppDemo
-  pod "RealmSwift"
+  # Pods for TravelAppDemoiOS
+  pod "RealmSwift", "4.3.1"
   pod 'SDWebImageSwiftUI'
-  target 'TraavelAppDemoTests' do
+  target 'TravelAppDemoiOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'TraavelAppDemoUITests' do
+  target 'TravelAppDemoiOSUITests' do
     # Pods for testing
   end
 
